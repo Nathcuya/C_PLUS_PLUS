@@ -16,3 +16,13 @@ void MenuShow()
     cout << "-----   0.退出通讯录   -----" << endl;
     cout << "----------------------------" << endl;
 }
+
+struct Person
+{
+    string P_name;
+    int age;
+    string P_gender;
+    string P_phonenumber;
+    string P_address;
+};
+
