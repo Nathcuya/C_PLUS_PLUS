@@ -42,6 +42,12 @@ void AddPerson(AddresBook *abs)
     }
     else
     {
+        string name, gender, add, phonenumber;
+        int age = 0;
+        cout << "请输入联系人姓名:" << endl;
+        cin >> name;
+        abs->PersonAccount[abs->person_number].P_name = name;
 
+        
     }
 }
