@@ -26,3 +26,22 @@ struct Person
     string P_address;
 };
 
+struct AddresBook
+{
+    struct Person PersonAccount[PERSON_MAX];
+    int person_number = 0;
+};
+
+void AddPerson(AddresBook *abs)
+{
+
+    if(abs->person_number==PERSON_MAX)
+    {
+        cout << "通讯录已满." << endl;
+        return;
+    }
+    else
+    {
+
+    }
+}
