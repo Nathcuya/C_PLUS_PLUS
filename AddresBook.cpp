@@ -85,5 +85,11 @@ int main()
     AddressBook abs;
 
     int select = 0;
+
+    while (true)
+    {
+        MenuShow();
+        
+    }
     
 }
