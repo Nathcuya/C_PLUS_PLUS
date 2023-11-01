@@ -93,7 +93,17 @@ int main()
         cout << "请输入功能号:" << endl;
         cin >> select;
 
+switch (select)
+{
+case 1:
+    AddPerson(&abs);
+    break;
 
+
+
+default:
+    break;
+}
     }
     
 }
