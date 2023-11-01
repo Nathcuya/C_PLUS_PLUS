@@ -74,6 +74,16 @@ void AddPerson(AddressBook *abs)
     }
 }
 
+void ShowAddressBook(AddressBook *abs)
+{
+
+}
+
+
 int main()
 {
+    AddressBook abs;
+
+    int select = 0;
+    
 }
