@@ -65,6 +65,10 @@ void AddPerson(AddressBook *abs)
         abs->PersonAccount[abs->person_number].P_address = add;
 
         abs->person_number++;
+
+        cout << "联系人添加成功!" << endl;
+
+        
     }
 }
 
