@@ -89,7 +89,11 @@ int main()
     while (true)
     {
         MenuShow();
-        
+
+        cout << "请输入功能号:" << endl;
+        cin >> select;
+
+
     }
     
 }
