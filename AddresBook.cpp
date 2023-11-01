@@ -67,8 +67,10 @@ void AddPerson(AddressBook *abs)
         abs->person_number++;
 
         cout << "联系人添加成功!" << endl;
-
         
+        system("pause");
+
+        system("cls");
     }
 }
 
