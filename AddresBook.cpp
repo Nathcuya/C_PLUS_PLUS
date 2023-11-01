@@ -1,4 +1,4 @@
-#include<iostream>>
+#include <iostream>
 
 using namespace std;
 
@@ -20,22 +20,22 @@ void MenuShow()
 struct Person
 {
     string P_name;
-    int age;
+    int P_age;
     string P_gender;
     string P_phonenumber;
     string P_address;
 };
 
-struct AddresBook
+struct AddressBook
 {
     struct Person PersonAccount[PERSON_MAX];
     int person_number = 0;
 };
 
-void AddPerson(AddresBook *abs)
+void AddPerson(AddressBook *abs)
 {
 
-    if(abs->person_number==PERSON_MAX)
+    if (abs->person_number == PERSON_MAX)
     {
         cout << "通讯录已满." << endl;
         return;
@@ -48,6 +48,13 @@ void AddPerson(AddresBook *abs)
         cin >> name;
         abs->PersonAccount[abs->person_number].P_name = name;
 
+        cout << "请输入联系人性别:" << endl;
+        cin >> gender;
+        abs->PersonAccount[abs->person_number].P_age = age;
         
     }
+}
+
+int main()
+{
 }
