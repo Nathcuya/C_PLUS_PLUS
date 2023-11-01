@@ -56,6 +56,13 @@ void AddPerson(AddressBook *abs)
         cin >> age;
         abs->PersonAccount[abs->person_number].P_age = age;
 
+        cout << "请输入联系人号码:" << endl;
+        cin >> phonenumber;
+        abs->PersonAccount[abs->person_number].P_phonenumber = phonenumber;
+
+        cout << "请输入联系人地址:" << endl;
+        cin >> add;
+        abs->PersonAccount[abs->person_number].P_add = add;
     }
 }
 
