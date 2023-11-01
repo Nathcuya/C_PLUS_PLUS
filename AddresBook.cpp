@@ -67,7 +67,7 @@ void AddPerson(AddressBook *abs)
         abs->person_number++;
 
         cout << "联系人添加成功!" << endl;
-        
+
         system("pause");
 
         system("cls");
@@ -76,9 +76,8 @@ void AddPerson(AddressBook *abs)
 
 void ShowAddressBook(AddressBook *abs)
 {
-
+    
 }
-
 
 int main()
 {
@@ -93,17 +92,31 @@ int main()
         cout << "请输入功能号:" << endl;
         cin >> select;
 
-switch (select)
-{
-case 1:
-    AddPerson(&abs);
-    break;
+        switch (select)
+        {
+        case 1:
+            AddPerson(&abs);
+            break;
 
+        case 2:
+            break;
+        case 3:
+            break;
+        case 4:
+            break;
+        case 5:
+            break;
+        case 6:
+            break;
+        case 0:
+            cout << "按任意键退出通讯录系统,欢迎下次使用!" << endl;
+            system("pause");
+            return 0;
 
-
-default:
-    break;
-}
+        default:
+            break;
+        }
     }
-    
+
+    return 0;
 }
